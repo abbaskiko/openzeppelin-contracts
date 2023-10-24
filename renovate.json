@@ -1,18 +1,4 @@
 {
-  "rangeStrategy": "replace",
-  "extends": [
-    "config:base",
-    ":maintainLockFilesWeekly",
-    "group:allNonMajor",
-    "schedule:weekly"
-  ],
-  "packageRules": [
-    {
-      "extends": ["packages:eslint"],
-      "enabled": false
-    }
-  ],
-  "lockFileMaintenance": {
-    "commitMessageAction": "Update lockfile"
-  }
+  "extends": ["github>OpenZeppelin/configs"],
+  "labels": ["ignore-changeset"]
 }

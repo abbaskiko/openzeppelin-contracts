@@ -1,4 +1,9 @@
 * xref:index.adoc[Overview]
+* xref:wizard.adoc[Wizard]
+* xref:extending-contracts.adoc[Extending Contracts]
+* xref:upgradeable.adoc[Using with Upgrades]
+
+* xref:backwards-compatibility.adoc[Backwards Compatibility]
 
 * xref:access-control.adoc[Access Control]
 
@@ -6,14 +11,13 @@
 ** xref:erc20.adoc[ERC20]
 *** xref:erc20-supply.adoc[Creating Supply]
 ** xref:erc721.adoc[ERC721]
-** xref:erc777.adoc[ERC777]
 ** xref:erc1155.adoc[ERC1155]
+** xref:erc4626.adoc[ERC4626]
 
-* xref:gsn.adoc[Gas Station Network]
-** xref:gsn-strategies.adoc[Strategies]
-
-* xref:extending-contracts.adoc[Extending Contracts]
+* xref:governance.adoc[Governance]
 
 * xref:utilities.adoc[Utilities]
 
-* xref:releases-stability.adoc[Releases & Stability]
+* xref:subgraphs::index.adoc[Subgraphs]
+
+* xref:faq.adoc[FAQ]

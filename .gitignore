@@ -50,3 +50,23 @@ contracts/README.md
 
 # temporary artifact from solidity-coverage
 allFiredEvents
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# hardat-exposed
+contracts-exposed
+
+# Hardhat
+/cache
+/artifacts
+
+# Foundry
+/out
+/cache_forge
+
+# Certora
+.certora*
+.last_confs
+certora_*
+.zip-output-url.txt
